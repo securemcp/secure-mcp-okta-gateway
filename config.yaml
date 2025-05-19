@@ -1,0 +1,5 @@
+proxies:
+  - pattern: "/mcp/dice/"
+    target_url: "http://localhost:3000"
+  - pattern: "/mcp/uuid/"
+    target_url: "http://localhost:4000"
