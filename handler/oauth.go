@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/auth"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/logging"
+	"github.com/securemcp/securemcp-okta-gateway/auth"
+	"github.com/securemcp/securemcp-okta-gateway/logging"
 )
 
 func (h *Handler) OAuthRegister(w http.ResponseWriter, r *http.Request) {

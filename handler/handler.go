@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/auth"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/config"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/middleware"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/provider/okta"
 	"github.com/redis/go-redis/v9"
+	"github.com/securemcp/securemcp-okta-gateway/auth"
+	"github.com/securemcp/securemcp-okta-gateway/config"
+	"github.com/securemcp/securemcp-okta-gateway/middleware"
+	"github.com/securemcp/securemcp-okta-gateway/provider/okta"
 )
 
 type Handler struct {

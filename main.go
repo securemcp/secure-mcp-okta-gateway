@@ -5,13 +5,13 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/auth"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/config"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/handler"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/logging"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/middleware"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/proxy"
 	"github.com/redis/go-redis/v9"
+	"github.com/securemcp/securemcp-okta-gateway/auth"
+	"github.com/securemcp/securemcp-okta-gateway/config"
+	"github.com/securemcp/securemcp-okta-gateway/handler"
+	"github.com/securemcp/securemcp-okta-gateway/logging"
+	"github.com/securemcp/securemcp-okta-gateway/middleware"
+	"github.com/securemcp/securemcp-okta-gateway/proxy"
 )
 
 func main() {

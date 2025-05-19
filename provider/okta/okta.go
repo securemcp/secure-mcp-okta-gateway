@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/coreos/go-oidc/v3/oidc"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/kvs"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/util"
 	"github.com/redis/go-redis/v9"
+	"github.com/securemcp/securemcp-okta-gateway/kvs"
+	"github.com/securemcp/securemcp-okta-gateway/util"
 	"golang.org/x/oauth2"
 )
 

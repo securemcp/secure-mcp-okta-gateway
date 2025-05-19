@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/auth"
+	"github.com/securemcp/securemcp-okta-gateway/auth"
 )
 
 type Middleware struct {

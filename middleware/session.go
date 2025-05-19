@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/util"
+	"github.com/securemcp/securemcp-okta-gateway/util"
 )
 
 const sidKey contextKey = "sid"

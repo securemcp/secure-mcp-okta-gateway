@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/auth"
+	"github.com/securemcp/securemcp-okta-gateway/auth"
 )
 
 func writeJSON(w http.ResponseWriter, status int, v any) {

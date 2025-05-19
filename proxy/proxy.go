@@ -5,8 +5,8 @@ import (
 	"net/http/httputil"
 	"strings"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/config"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/middleware"
+	"github.com/securemcp/securemcp-okta-gateway/config"
+	"github.com/securemcp/securemcp-okta-gateway/middleware"
 )
 
 type ProxyService struct {

@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/kvs"
 	"github.com/redis/go-redis/v9"
+	"github.com/securemcp/securemcp-okta-gateway/kvs"
 )
 
 type Auth struct {

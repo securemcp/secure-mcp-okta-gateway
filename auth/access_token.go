@@ -4,8 +4,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/logging"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/util"
+	"github.com/securemcp/securemcp-okta-gateway/logging"
+	"github.com/securemcp/securemcp-okta-gateway/util"
 )
 
 func (a *Auth) GenerateAccessToken(ctx context.Context, uid string) (string, *AuthError) {

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/logging"
+	"github.com/securemcp/securemcp-okta-gateway/logging"
 )
 
 func (m *Middleware) Logger(next http.HandlerFunc) http.HandlerFunc {

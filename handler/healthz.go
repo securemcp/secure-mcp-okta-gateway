@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/hi120ki/mcp-okta-gateway/gatewayv2/logging"
+	"github.com/securemcp/securemcp-okta-gateway/logging"
 )
 
 func (h *Handler) Healthz(w http.ResponseWriter, r *http.Request) {

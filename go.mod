@@ -1,4 +1,4 @@
-module github.com/hi120ki/mcp-okta-gateway/gatewayv2
+module github.com/securemcp/securemcp-okta-gateway
 
 go 1.24.3
 
