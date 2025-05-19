@@ -23,9 +23,9 @@ Secure MCP Okta Gateway is a gateway server that provides OAuth 2.0 Authorizatio
 ## Installation
 
 ```sh
-git clone https://github.com/hi120ki/mcp-okta-gateway.git
-cd gatewayv2
-go build -o mcp-okta-gateway
+git clone https://github.com/securemcp/securemcp-okta-gateway.git
+cd securemcp-okta-gateway
+go build -o securemcp-okta-gateway
 ```
 
 ## Configuration
@@ -52,7 +52,7 @@ Set environment variables as needed (see `.env.sample` for examples):
 Start the server:
 
 ```sh
-./mcp-okta-gateway
+./securemcp-okta-gateway
 ```
 
 ## Endpoints
